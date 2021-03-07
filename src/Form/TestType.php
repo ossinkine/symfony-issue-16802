@@ -14,7 +14,7 @@ class TestType extends AbstractType
     {
         $builder
             ->add('text', TextType::class)
-            ->add('choice', ChoiceType::class, ['choices' => ['foo' => 'FOO', 'bar' => 'BAR'], 'expanded' => true])
+            ->add('choice', ChoiceType::class, ['choices' => ['FOO' => 'foo', 'BAR' => 'bar'], 'expanded' => true])
         ;
     }
 }
